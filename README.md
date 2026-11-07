@@ -105,11 +105,11 @@ An independent technology venture exploring AI-powered solutions, software and d
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/noir-text-portrait.svg" width="100%" alt="Animated Pablo Escobar text-symbol portrait study with vintage crime-drama motifs" />
+<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/noir-text-portrait.svg" width="100%" alt="Animated archival mugshot portrait rendered in text symbols" />
 
 <br/>
 
-<sub>╾━╤デ╦︻ &nbsp; ✦ &nbsp; * * * &nbsp; CINEMATIC FICTIONAL MOTIFS — NOT AN ENDORSEMENT OF VIOLENCE</sub>
+<sub>MEDELLÍN · 1980s · A CINEMATIC ARCHIVE STUDY</sub>
 
 </div>
 
