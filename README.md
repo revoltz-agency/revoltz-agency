@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-gothic-hero.svg" width="100%" alt="Animated chrome skeletal spider, silver web and ornamental dagger artwork" />
+<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-gothic-hero.svg" width="100%" alt="Animated chromeheart integrated with symmetrical gothic cybersigil ornamentation" />
 
 <img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-boot-sequence.svg" width="100%" alt="Animated Revoltz terminal boot sequence" />
 
@@ -131,7 +131,7 @@ For ideas, collaborations or conversations:
 
 <sub>NO NOISE. NO SHORTCUTS. JUST THE WORK.</sub>
 
-<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-gothic-hero.svg" width="100%" alt="Gothic chrome spider and dagger sigil closing artwork" />
+<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-gothic-hero.svg" width="100%" alt="Gothic chromeheart and symmetrical silver cybersigil closing artwork" />
 
 <sub>BUILT IN THE DARK.</sub>
 
