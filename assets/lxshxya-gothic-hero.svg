@@ -1,60 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
-<title id="t">Abstract chrome cybersigil</title><desc id="d">A dark cinematic field of intricate symmetrical silver linework, drifting particles and animated chrome light.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" fill="none">
 <defs>
- <radialGradient id="bg"><stop stop-color="#171b1b"/><stop offset=".55" stop-color="#090b0c"/><stop offset="1" stop-color="#030405"/></radialGradient>
- <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3d4548"/><stop offset=".18" stop-color="#f4f7f7"/><stop offset=".32" stop-color="#778186"/><stop offset=".48" stop-color="#fff"/><stop offset=".63" stop-color="#687277"/><stop offset=".82" stop-color="#dce1e2"/><stop offset="1" stop-color="#41494d"/></linearGradient>
- <linearGradient id="beam"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
- <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
- <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
- <pattern id="dots" width="11" height="11" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r=".8" fill="#cbd2d4" opacity=".5"/></pattern>
- <style>
- .line{fill:none;stroke:url(#chrome);stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round}
- .fine{fill:none;stroke:#b8c1c4;stroke-width:.65;opacity:.42}
- .orbit{transform-origin:600px 205px;animation:turn 48s linear infinite}
- .counter{transform-origin:600px 205px;animation:turn 66s linear infinite reverse}
- .pulse{animation:pulse 6s ease-in-out infinite}
- .spark{animation:blink 3.4s ease-in-out infinite}
- .sweep{animation:sweep 8s ease-in-out infinite}
- .grain{opacity:.12}
- @keyframes turn{to{transform:rotate(360deg)}}
- @keyframes pulse{0%,100%{opacity:.34;transform:scale(.985)}50%{opacity:.8;transform:scale(1.018)}}
- @keyframes blink{0%,100%{opacity:.12}45%{opacity:.85}}
- @keyframes sweep{0%{transform:translateX(-420px);opacity:0}25%{opacity:.35}70%{opacity:.12}100%{transform:translateX(420px);opacity:0}}
- </style>
+  <linearGradient id="chrome" x1="170" y1="70" x2="1020" y2="460" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#24272A"/>
+    <stop offset=".16" stop-color="#F4F6F7"/>
+    <stop offset=".27" stop-color="#62686D"/>
+    <stop offset=".39" stop-color="#FDFDFD"/>
+    <stop offset=".52" stop-color="#555B60"/>
+    <stop offset=".67" stop-color="#D9DDE0"/>
+    <stop offset=".82" stop-color="#353A3E"/>
+    <stop offset="1" stop-color="#AEB4B8"/>
+  </linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fff" stop-opacity=".04"/>
+    <stop offset=".48" stop-color="#fff" stop-opacity=".95"/>
+    <stop offset="1" stop-color="#7C858B" stop-opacity=".08"/>
+  </linearGradient>
+  <radialGradient id="spot" cx="0" cy="0" r="1" gradientTransform="matrix(430 190 -270 610 590 230)" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#C9D0D4" stop-opacity=".19"/>
+    <stop offset="1" stop-color="#08090A" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#fff" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#fff" stop-opacity=".8"/>
+    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="soft" x="-30%" y="-50%" width="160%" height="200%">
+    <feGaussianBlur stdDeviation="22"/>
+  </filter>
+  <filter id="metal" x="-20%" y="-30%" width="140%" height="160%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+    <feSpecularLighting in="blur" surfaceScale="7" specularConstant=".8" specularExponent="24" lighting-color="#fff" result="spec">
+      <fePointLight x="-150" y="-100" z="260"/>
+    </feSpecularLighting>
+    <feComposite in="spec" in2="SourceAlpha" operator="in" result="spec2"/>
+    <feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="spec2"/></feMerge>
+  </filter>
+  <clipPath id="frame"><rect width="1200" height="520" rx="3"/></clipPath>
 </defs>
-<rect width="1200" height="420" fill="url(#bg)"/>
-<ellipse cx="600" cy="210" rx="330" ry="170" fill="#cbd5d8" opacity=".07" filter="url(#soft)"/>
-<g opacity=".22" fill="url(#dots)"><path d="M0 0H1200V420H0Z"/></g>
-<g class="orbit">
- <ellipse class="fine" cx="600" cy="205" rx="380" ry="116" transform="rotate(-24 600 205)"/>
- <ellipse class="fine" cx="600" cy="205" rx="380" ry="116" transform="rotate(24 600 205)"/>
- <ellipse class="line" cx="600" cy="205" rx="292" ry="150" transform="rotate(45 600 205)" opacity=".7"/>
- <path class="fine" d="M600 27C660 98 660 312 600 383C540 312 540 98 600 27Z"/>
- <path class="fine" d="M420 205C493 145 707 145 780 205C707 265 493 265 420 205Z"/>
+<g clip-path="url(#frame)">
+  <rect width="1200" height="520" fill="#08090A"/>
+  <rect width="1200" height="520" fill="url(#spot)"/>
+  <path d="M0 390H1200" stroke="#fff" stroke-opacity=".055"/>
+  <path d="M0 130H1200" stroke="#fff" stroke-opacity=".035"/>
+  <g opacity=".32">
+    <path d="M90 0V520M1110 0V520" stroke="#AEB4B8" stroke-opacity=".12"/>
+    <path d="M70 70H1130M70 450H1130" stroke="#AEB4B8" stroke-opacity=".1"/>
+  </g>
+  <ellipse cx="610" cy="280" rx="365" ry="105" fill="#AAB2B8" opacity=".14" filter="url(#soft)"/>
+  <g filter="url(#metal)">
+    <path d="M192 286C273 137 424 77 558 129C664 170 661 306 768 331C861 353 942 271 1005 191C970 324 854 423 723 399C585 374 591 235 486 206C384 177 294 239 192 356C164 383 151 359 192 286Z" fill="url(#chrome)"/>
+    <path d="M193 286C274 138 425 78 558 130C665 171 661 307 768 332C862 354 943 271 1005 191" stroke="#fff" stroke-opacity=".85" stroke-width="2.2"/>
+    <path d="M192 356C294 239 384 177 486 206C591 235 585 375 723 399C854 423 970 324 1005 191" stroke="#0A0B0C" stroke-opacity=".8" stroke-width="3"/>
+    <path d="M220 300C322 179 419 134 526 171C635 209 624 334 746 361C843 383 925 313 981 236" stroke="url(#edge)" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+    <path d="M260 332C355 241 420 209 488 231C574 258 567 357 690 380" stroke="#F8FAFB" stroke-opacity=".7" stroke-width="1.4"/>
+    <path d="M505 130C601 151 616 215 632 270C650 335 699 368 770 370" stroke="#15191C" stroke-opacity=".8" stroke-width="18" stroke-linecap="round"/>
+  </g>
+  <path d="M170 410C370 330 480 330 650 395C810 456 941 414 1050 327" stroke="#D8DEE2" stroke-opacity=".14" stroke-width="1"/>
+  <g opacity=".65">
+    <circle cx="177" cy="286" r="2" fill="#E8ECEE"/><circle cx="1005" cy="191" r="2" fill="#E8ECEE"/>
+    <circle cx="723" cy="399" r="2" fill="#E8ECEE"/>
+  </g>
+  <g opacity=".55">
+    <rect x="-250" y="0" width="150" height="520" fill="url(#beam)" transform="skewX(-18)">
+      <animate attributeName="x" values="-400;1450" dur="8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <path d="M0 519.5H1200" stroke="#fff" stroke-opacity=".12"/>
+  <text x="72" y="54" fill="#858C91" font-family="Arial,Helvetica,sans-serif" font-size="10" letter-spacing="3">INDEPENDENT / DIGITAL / EXPERIMENTAL</text>
+  <text x="1128" y="54" text-anchor="end" fill="#858C91" font-family="Arial,Helvetica,sans-serif" font-size="10" letter-spacing="3">STUDIO 001</text>
+  <text x="72" y="482" fill="#666D72" font-family="Arial,Helvetica,sans-serif" font-size="9" letter-spacing="2.5">FORM IN MOTION</text>
+  <text x="1128" y="482" text-anchor="end" fill="#666D72" font-family="Arial,Helvetica,sans-serif" font-size="9" letter-spacing="2.5">EST. IN THE MAKING</text>
 </g>
-<g class="counter">
- <path class="line" d="M600 48C570 92 546 108 500 119C545 141 562 163 565 205C562 247 545 269 500 291C546 302 570 318 600 362C630 318 654 302 700 291C655 269 638 247 635 205C638 163 655 141 700 119C654 108 630 92 600 48Z"/>
- <path class="line" d="M600 77C580 118 560 138 526 151C566 169 580 184 582 205C580 226 566 241 526 259C560 272 580 292 600 333C620 292 640 272 674 259C634 241 620 226 618 205C620 184 634 169 674 151C640 138 620 118 600 77Z" opacity=".8"/>
- <path class="fine" d="M600 48L600 362M420 205H780M472 78L728 332M728 78L472 332"/>
-</g>
-<g class="pulse">
- <path class="line" d="M600 108C578 142 551 155 518 166C551 183 566 194 600 205C634 194 649 183 682 166C649 155 622 142 600 108Z"/>
- <path class="line" d="M600 302C578 268 551 255 518 244C551 227 566 216 600 205C634 216 649 227 682 244C649 255 622 268 600 302Z"/>
- <path class="fine" d="M518 166Q600 205 682 166M518 244Q600 205 682 244"/>
-</g>
-<g class="line" opacity=".9">
- <path d="M600 18L588 65L600 54L612 65Z"/><path d="M600 392L588 345L600 356L612 345Z"/>
- <path d="M405 205L452 193L441 205L452 217Z"/><path d="M795 205L748 193L759 205L748 217Z"/>
- <path d="M462 67Q520 112 480 151Q520 181 480 205Q520 229 480 259Q520 298 462 343"/>
- <path d="M738 67Q680 112 720 151Q680 181 720 205Q680 229 720 259Q680 298 738 343"/>
-</g>
-<g fill="#e8eeee">
- <circle class="spark" cx="600" cy="48" r="2.2"/><circle class="spark" cx="600" cy="362" r="2" style="animation-delay:1s"/>
- <circle class="spark" cx="420" cy="205" r="1.8" style="animation-delay:1.8s"/><circle class="spark" cx="780" cy="205" r="2" style="animation-delay:.6s"/>
- <circle class="spark" cx="500" cy="119" r="1.5" style="animation-delay:1.3s"/><circle class="spark" cx="700" cy="291" r="1.5" style="animation-delay:2.1s"/>
-</g>
-<path d="M0 210H1200" stroke="#9ba7aa" opacity=".12"/>
-<g class="sweep"><path d="M0 0L250 0L510 420H260Z" fill="url(#beam)" opacity=".22"/></g>
-<g stroke="#d9e0e1" opacity=".35"><path d="M38 38H110M38 38V110M1162 38H1090M1162 38V110M38 382H110M38 382V310M1162 382H1090M1162 382V310"/></g>
-<g fill="#9da8aa" font-family="monospace" font-size="9" letter-spacing="3"><text x="48" y="25">FORM / 001</text><text x="1152" y="25" text-anchor="end">CHROME STUDY</text><text x="48" y="404">NOISE IS A DISTRACTION</text><text x="1152" y="404" text-anchor="end">SIGNAL REMAINS</text></g>
 </svg>
