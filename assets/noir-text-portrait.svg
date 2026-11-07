@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="820" viewBox="0 0 1240 820" role="img" aria-labelledby="title desc">
+<title id="title">Animated vintage crime-drama ASCII portrait</title>
+<desc id="desc">A text-symbol portrait gradually appears in a vintage olive dossier frame, with decorative comic-book muzzle flash marks.</desc>
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#172019"/><stop offset="1" stop-color="#090e0b"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1240" height="820" rx="8" fill="url(#paper)"/>
+<rect x="15" y="15" width="1210" height="790" rx="4" fill="none" stroke="#8b7650" stroke-opacity=".65" stroke-width="2"/>
+<text x="40" y="42" fill="#c9b88e" font-family="monospace" font-size="17" letter-spacing="5">REVOLTZ ARCHIVES / VISUAL FILE 008</text>
+<text x="1200" y="42" text-anchor="end" fill="#8d4539" font-family="monospace" font-size="15">CLASSIFIED • 1980s</text>
+<g fill="#d7c9a5" font-family="monospace" font-size="17" letter-spacing="1.2" filter="url(#glow)">
+    <tspan x="20" y="54" opacity="0">BB932h9BG5&amp;@&amp;&amp;B####SMS#9BB##5A3SSSS#S#S#S9S#G2.2BHM3;r33352AAA55<animate attributeName="opacity" from="0" to="1" begin="0.00s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="73" opacity="0">BB#5Ah##5M&amp;@B9&amp;#3AX;::;X3#SS5A3#S#G#S#S#G#G#G2.5#HM5;;222AXXssA2<animate attributeName="opacity" from="0" to="1" begin="0.11s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="92" opacity="0">B&amp;B95XM&amp;5H&amp;@@B#2i:,,..   ,2S2X5#S#GSS9S#S#HSG2.M9HM2:,rAXssrrssX<animate attributeName="opacity" from="0" to="1" begin="0.22s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="111" opacity="0">B9B95sH&amp;G2#BBGA;;,....,,. :hAXh#S#G###S#GSHMH2 H&amp;HMA, :srii;iii;<animate attributeName="opacity" from="0" to="1" begin="0.33s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="130" opacity="0">S#SSAsHBS;h9#h;r:.,rhHG3Xi,iXs3Mhh3hhhhMhh3332:M#M3Aiirsriiirsri<animate attributeName="opacity" from="0" to="1" begin="0.44s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="149" opacity="0">HGHHsrMBHsMGhX;Hhi3##Hh5Xi:rs255333hhhhMhMHHMG&amp;@@@@3AH9#SH3XsrX2<animate attributeName="opacity" from="0" to="1" begin="0.55s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="168" opacity="0">532ArX2hX5HGS5iA#G9#M22M;,AAXhMHSGH#S9HSMHSSH@@@@@@3h@@@@@@G2:i2<animate attributeName="opacity" from="0" to="1" begin="0.66s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="187" opacity="0">35ss3GSGMMGGSH339&amp;B9M2MMis2Xs3MMHMHGGGMH33Mhh@@@@@95H@@@@@@#2::A<animate attributeName="opacity" from="0" to="1" begin="0.77s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="206" opacity="0">M5XshSS#GMH#SHSG99#SMhX:i52AA23hhhhMhM3h25253@@@@@G5S@@@@@@#X,:X<animate attributeName="opacity" from="0" to="1" begin="0.88s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="225" opacity="0">22Ar2GSSHG#&amp;HG@@@&amp;SSh5sXXrA2A2A2h3hhhM5h55AA29@@@@hMB@@@@@@Hr,:s<animate attributeName="opacity" from="0" to="1" begin="0.99s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="244" opacity="0">AA2isHG9@@@&amp;#M3SS3G#GHs5ssXhM55s25333h23AAXXs5MG#&amp;32&amp;@@@@@BAi.,:<animate attributeName="opacity" from="0" to="1" begin="1.10s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="263" opacity="0">XAX;rh9@@@@@@@S53Mh23MGS5AAh#HA2sA255522XXssr5h3sMH2HSGSGMX,<animate attributeName="opacity" from="0" to="1" begin="1.21s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="282" opacity="0">iri,:3@@@@@@B&amp;@@#G#S35hG932AMM2MXs535225AAi;;hM5rM#9S5Asri:,,,,:<animate attributeName="opacity" from="0" to="1" begin="1.32s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="301" opacity="0">sXAr:h@@@@@@@9#@@@BGHHMhMSM25h2HMiX35AA2XX;:;5h2;5H#922252i;:,,,<animate attributeName="opacity" from="0" to="1" begin="1.43s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="320" opacity="0">XA2XiA@@@@@@@@##@@@@&amp;GMhMMMhhh5MHrrX5AXAXs;;:sAs,X3HS22Ariii;;ir<animate attributeName="opacity" from="0" to="1" begin="1.54s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="339" opacity="0">sXAA;:9@@@@@B#BH@@@@@@B#GHHH35A3Hr;i2AXXsr,,..:;,;X5MH253AA2A;::<animate attributeName="opacity" from="0" to="1" begin="1.65s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="358" opacity="0">sXAA;:h@@@@@@B#59@@@@@@&amp;9#GSH3A3Msr,;sXXsi..      :rXAAr#9HH5:.,<animate attributeName="opacity" from="0" to="1" begin="1.76s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="377" opacity="0">irss;,h@@@@@@@S5H@@@@@@@@@@&amp;#HM33ssr..ii;:    ..      .:MBG5r:,.<animate attributeName="opacity" from="0" to="1" begin="1.87s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="396" opacity="0">....  rGH#B9S5XirM9@@@@@@@@@@&amp;#H3AXs;.,.     .,.   ..   ;si,.<animate attributeName="opacity" from="0" to="1" begin="1.98s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="415" opacity="0">  ..:;;sA2HSGHM5AssX5MS9B&amp;&amp;&amp;&amp;BSM2sXsi:ri.  .,,.,.<animate attributeName="opacity" from="0" to="1" begin="2.09s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="434" opacity="0">;rXA5532XXXhHMHGGMh3522225522AAXi;:;::::::   ....<animate attributeName="opacity" from="0" to="1" begin="2.20s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="453" opacity="0">isXXAhM5srrsXXXXA2555553hMM355552r,i;:.:AX  .:,.<animate attributeName="opacity" from="0" to="1" begin="2.31s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="472" opacity="0">rsXAXX22Xsi:;;iiiiii;:,,,;irrrrss;:,.   .  ,,,..<animate attributeName="opacity" from="0" to="1" begin="2.42s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="491" opacity="0">irsXXsXs;ir;i;;;;irrrsA:<animate attributeName="opacity" from="0" to="1" begin="2.53s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="510" opacity="0">irsXXsss;;riir;;;i; .;X:<animate attributeName="opacity" from="0" to="1" begin="2.64s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="529" opacity="0">rrrXXssr;,i;;;::::...<animate attributeName="opacity" from="0" to="1" begin="2.75s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="548" opacity="0">::::::,....       .<animate attributeName="opacity" from="0" to="1" begin="2.86s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="567" opacity="0">          .<animate attributeName="opacity" from="0" to="1" begin="2.97s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="586" opacity="0">X,<animate attributeName="opacity" from="0" to="1" begin="3.08s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="605" opacity="0">X;<animate attributeName="opacity" from="0" to="1" begin="3.19s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="624" opacity="0">:.<animate attributeName="opacity" from="0" to="1" begin="3.30s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="643" opacity="0">:.                        .<animate attributeName="opacity" from="0" to="1" begin="3.41s" dur="0.18s" fill="freeze"/></tspan>
+    <tspan x="20" y="662" opacity="0">:.<animate attributeName="opacity" from="0" to="1" begin="3.52s" dur="0.18s" fill="freeze"/></tspan>
+</g>
+<g fill="#bd7650" font-family="monospace" font-size="27" font-weight="bold">
+  <text x="770" y="690">✦</text><text x="820" y="650">✧</text><text x="870" y="700">✹</text>
+  <text x="930" y="665">✦</text><text x="985" y="710">✧</text>
+</g>
+<g fill="#c9b88e" font-family="monospace" font-size="22">
+  <text x="790" y="755">╾━╤デ╦︻</text>
+  <text x="965" y="755" fill="#bd7650">*  *  *  FLASH</text>
+</g>
+<text x="40" y="780" fill="#9eaa8d" font-family="monospace" font-size="15" letter-spacing="3">SILENCE. LET THE WORK SPEAK.</text>
+</svg>
