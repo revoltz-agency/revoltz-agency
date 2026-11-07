@@ -1,69 +1,44 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/gothic-chromeheart.svg" width="100%" alt="Ornamental gothic chromeheart sigil" />
+<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-gothic-hero.svg" width="100%" alt="Animated chrome skeletal spider, silver web and ornamental dagger artwork" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&pause=1800&color=9DB8A8&center=true&vCenter=true&width=760&height=42&lines=SYSTEM+AWAKENING...;IDENTITY%3A+LXSHXYA;DIRECTIVE%3A+CREATE;BUILT+IN+THE+DARK." alt="Animated system boot sequence" />
+<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-boot-sequence.svg" width="100%" alt="Animated Revoltz terminal boot sequence" />
 
 <br/>
 
-<sub>〔 REVOLTZ SYSTEMS 〕 · PRIVATE INSTANCE · EST. IN PROGRESS</sub>
-
-<br/><br/>
-
-<a href="https://instagram.com/revoltz.ai"><img src="https://img.shields.io/badge/INSTAGRAM-0B1411?style=flat-square&logo=instagram&logoColor=A9C5B5&labelColor=0B1411" alt="Instagram" /></a>
-<a href="https://github.com/revoltz-agency"><img src="https://img.shields.io/badge/GITHUB-0B1411?style=flat-square&logo=github&logoColor=A9C5B5&labelColor=0B1411" alt="GitHub" /></a>
-<img src="https://komarev.com/ghpvc/?username=revoltz-agency&label=SYSTEM+VISITS&color=31483D&style=flat-square" alt="Profile visits" />
+<a href="https://instagram.com/revoltz.ai"><img src="https://img.shields.io/badge/INSTAGRAM-080D0B?style=for-the-badge&logo=instagram&logoColor=DCE9E1" alt="Instagram" /></a>
+<a href="https://github.com/revoltz-agency"><img src="https://img.shields.io/badge/GITHUB-080D0B?style=for-the-badge&logo=github&logoColor=DCE9E1" alt="GitHub" /></a>
+<img src="https://komarev.com/ghpvc/?username=revoltz-agency&label=VISITORS&color=25352D&style=for-the-badge" alt="Profile visitors" />
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/silver-sigil-divider.svg" width="100%" alt="Animated silver ornamental divider" />
 
 <div align="center">
 
-<sub>01 / IDENTITY RECORD</sub>
+<sub>01 / THE OPERATOR</sub>
 
 # L X S H X Y A
 
-**FOUNDER · AI & SaaS BUILDER**
+**FOUNDER · AI & SAAS BUILDER**
 
-<sub>AN OPERATOR BUILDING QUIETLY AT THE EDGE OF WHAT'S NEXT.</sub>
+*BUILT IN THE DARK.*
+
+<sub>Ideas become systems. Systems become products.</sub>
 
 </div>
 
-```text
-┌──────────────────────────────────────────────────────────────┐
-│  REVOLTZ :: BOOT SEQUENCE                                    │
-├──────────────────────────────────────────────────────────────┤
-│  [ OK ]  INITIALIZING CORE                                   │
-│  [ OK ]  IDENTITY ................. LXSHXYA                  │
-│  [ OK ]  ACCESS .................. RESTRICTED                │
-│  [ OK ]  CREATIVE DIRECTIVE ...... BUILD                     │
-│  [ OK ]  ACTIVE SYSTEMS .......... REVOLTZ / DINETAP          │
-│                                                              │
-│  STATUS: BUILDING                                            │
-│  MODE:   SILENT                                               │
-│  INPUT:  IDEAS                                               │
-│  OUTPUT: PRODUCTS                                            │
-│                                                              │
-│  AWAITING NEXT COMMAND_                                      │
-└──────────────────────────────────────────────────────────────┘
-```
+I’m drawn to ambitious ideas, difficult problems and the process of turning concepts into useful products. Exploring AI, SaaS and startups by building, testing and refining.
 
-I’m interested in ambitious ideas, difficult problems and turning concepts into useful products. My work sits around AI, SaaS and startups — learning by building, testing and refining.
-
-<div align="center">
-<sub>NO NOISE. NO SHORTCUTS. JUST THE WORK.</sub>
-</div>
-
----
+<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/silver-sigil-divider.svg" width="100%" alt="Animated silver ornamental divider" />
 
 <div align="center">
 
-<sub>02 / ACTIVE PROJECT DIRECTORY</sub>
+<sub>02 / ACTIVE EXPERIMENTS</sub>
 
-## `/root/projects`
+## THE PROJECT VAULT
 
-<sub>TWO ACTIVE SYSTEMS · MORE IN DEVELOPMENT</sub>
+<sub>SELECTED SYSTEMS FROM THE REVOLTZ WORKSHOP</sub>
 
 </div>
 
@@ -71,75 +46,95 @@ I’m interested in ambitious ideas, difficult problems and turning concepts int
 <tr>
 <td width="50%" valign="top">
 
-**[01] / DINETAP.exe**
+<div align="center">
 
-<sub>RESTAURANT OPERATIONS · SAAS</sub>
+### 01 — DINETAP
 
-A QR-based ordering experience designed to make dining simpler and restaurant operations smoother.
+<sub>RESTAURANT TECHNOLOGY / SAAS</sub>
 
-<a href="https://dinetap-by-revoltz.onrender.com/"><img src="https://img.shields.io/badge/OPEN_SYSTEM-14231D?style=for-the-badge&labelColor=0B1411&color=14231D" alt="Open DineTap" /></a>
+</div>
+
+A QR-based ordering platform built to simplify the guest experience and streamline restaurant operations.
+
+<div align="center">
+
+<a href="https://dinetap-by-revoltz.onrender.com/"><img src="https://img.shields.io/badge/ACCESS_DINETAP-17231D?style=for-the-badge&logo=windowsterminal&logoColor=DCE9E1" alt="Open DineTap" /></a>
+
+</div>
 
 </td>
 <td width="50%" valign="top">
 
-**[02] / REVOLTZ_AI.exe**
+<div align="center">
 
-<sub>AI · SOFTWARE · DIGITAL EXPERIENCES</sub>
+### 02 — REVOLTZ AI
 
-An independent technology venture exploring intelligent tools, AI-powered solutions and software products.
+<sub>ARTIFICIAL INTELLIGENCE / SOFTWARE</sub>
 
-<a href="https://revoltz-agency.github.io/Revoltz/"><img src="https://img.shields.io/badge/ENTER_REVOLTZ-14231D?style=for-the-badge&labelColor=0B1411&color=14231D" alt="Visit Revoltz AI" /></a>
+</div>
+
+An independent technology venture exploring AI-powered solutions, intelligent tools and digital experiences.
+
+<div align="center">
+
+<a href="https://revoltz-agency.github.io/Revoltz/"><img src="https://img.shields.io/badge/ENTER_REVOLTZ-17231D?style=for-the-badge&logo=windowsterminal&logoColor=DCE9E1" alt="Visit Revoltz AI" /></a>
+
+</div>
 
 </td>
 </tr>
 </table>
 
-<div align="center">
-<sub>03 / SYSTEM MODULES</sub>
+<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/silver-sigil-divider.svg" width="100%" alt="Animated silver ornamental divider" />
 
-## `capabilities --load`
+<div align="center">
+
+<sub>03 / INSTALLED MODULES</sub>
+
+## THE TOOLCHAIN
 
 </div>
 
 ```bash
-$ system.modules --list
+$ modules --list
 
-[01]  AI & PRODUCT BUILDING
-[02]  SAAS / STARTUP EXPLORATION
-[03]  SOFTWARE DESIGN & EXPERIMENTATION
+  AI & PRODUCT BUILDING
+  SAAS / STARTUP EXPLORATION
+  SOFTWARE DESIGN & EXPERIMENTATION
 
-$ tools --available
+$ tools --scan
 
-[+]  CODEX
-[+]  CLAUDE
+  [ ONLINE ]  CODEX
+  [ ONLINE ]  CLAUDE
 
-$ system.status
-[ACTIVE]  LEARNING
-[ACTIVE]  BUILDING
-[ACTIVE]  REFINING
+$ operator --status
+
+  LEARNING     ██████████  ACTIVE
+  BUILDING     ██████████  ACTIVE
+  REFINING     ██████████  ACTIVE
 ```
 
----
+<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/silver-sigil-divider.svg" width="100%" alt="Animated silver ornamental divider" />
 
 <div align="center">
 
-<sub>04 / CONNECTION PORTS</sub>
+<sub>04 / OPEN CHANNEL</sub>
 
-## `establish_connection()`
+## ESTABLISH CONNECTION
 
 For ideas, collaborations or conversations:
 
-<a href="https://instagram.com/revoltz.ai"><img src="https://img.shields.io/badge/INSTAGRAM-14231D?style=for-the-badge&logo=instagram&logoColor=B8D0C3" alt="Instagram @revoltz.ai" /></a>
-<a href="https://github.com/revoltz-agency"><img src="https://img.shields.io/badge/GITHUB-14231D?style=for-the-badge&logo=github&logoColor=B8D0C3" alt="GitHub profile" /></a>
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/gothic-chromeheart.svg" width="100%" alt="Gothic chromeheart closing sigil" />
-
-<sub>BUILT IN THE DARK.</sub>
+<a href="https://instagram.com/revoltz.ai"><img src="https://img.shields.io/badge/@REVOLTZ.AI-080D0B?style=for-the-badge&logo=instagram&logoColor=DCE9E1" alt="Instagram @revoltz.ai" /></a>
+<a href="https://github.com/revoltz-agency"><img src="https://img.shields.io/badge/GITHUB-080D0B?style=for-the-badge&logo=github&logoColor=DCE9E1" alt="GitHub profile" /></a>
 
 <br/>
 
-<sub>TERMINATING SESSION ... [ COMPLETE ]</sub>
+<sub>NO NOISE. NO SHORTCUTS. JUST THE WORK.</sub>
+
+<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-gothic-hero.svg" width="100%" alt="Gothic chrome spider and dagger sigil closing artwork" />
+
+<sub>BUILT IN THE DARK.</sub>
+
+<sub>SESSION CLOSED · UNTIL THE NEXT CREATION</sub>
 
 </div>
