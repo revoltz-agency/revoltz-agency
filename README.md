@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&section=header&text=LXSHXYA&fontSize=76&fontColor=E9DFC5&fontAlignY=38&animation=fadeIn&color=0:101712,45:263A2A,100:6B3028" width="100%" alt="Vintage cinematic olive and burgundy header" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Special+Elite&weight=500&size=21&pause=1500&color=D4C49A&center=true&vCenter=true&width=800&height=60&lines=FOUNDER+%7C+AI+%26+SAAS+BUILDER;BUILDING+IN+THE+SHADOWS.;BUILDING+SOMETHING+THAT+LASTS.;IDEAS+INTO+REALITY." alt="Animated cinematic introduction" />
+<img src="https://readme-typing-svg.demolab.com?font=Special+Elite&weight=500&size=21&pause=1500&color=D4C49A&center=true&vCenter=true&width=800&height=60&lines=FOUNDER+%7C+AI+%26+SAAS+BUILDER;SILENCE.;LET+THE+WORK+SPEAK.;IDEAS+INTO+REALITY." alt="Animated cinematic introduction" />
 
 <br/>
 
@@ -46,7 +46,7 @@
 
 I’m drawn to ambitious ideas, hard problems and the process of turning concepts into useful products. Exploring the worlds of AI, SaaS and startups through building, testing and learning.
 
-> **Building.** Quietly, deliberately, relentlessly.
+> **Silence.** Let the work speak.
 
 ---
 
@@ -130,7 +130,7 @@ An independent technology venture exploring AI-powered solutions, software and d
 
 ## 05 — THE NEXT CHAPTER
 
-<img src="https://readme-typing-svg.demolab.com?font=Special+Elite&size=17&pause=2100&color=D4C49A&center=true&vCenter=true&width=720&height=55&lines=THE+WORK+IS+NEVER+FINISHED.;BUILDING+AN+EMPIRE+OF+IDEAS.;ONE+PRODUCT.+ONE+MOVE.+AT+A+TIME." alt="Animated closing lines" />
+<img src="https://readme-typing-svg.demolab.com?font=Special+Elite&size=17&pause=2100&color=D4C49A&center=true&vCenter=true&width=720&height=55&lines=THE+WORK+IS+NEVER+FINISHED.;SILENCE+SPEAKS+LOUDER.;ONE+PRODUCT.+ONE+MOVE.+AT+A+TIME." alt="Animated closing lines" />
 
 <br/>
 
@@ -138,7 +138,7 @@ An independent technology venture exploring AI-powered solutions, software and d
 
 <br/><br/>
 
-<sub>LESS TALK. MORE BUILDING.</sub>
+<sub>SILENCE. LET THE WORK SPEAK.</sub>
 
 <br/><br/>
 
