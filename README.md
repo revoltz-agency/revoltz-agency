@@ -101,15 +101,15 @@ An independent technology venture exploring AI-powered solutions, software and d
 
 ## 03 — THE PORTRAIT
 
-<sub>A FACE IN THE STATIC · A STORY TOLD IN SYMBOLS</sub>
+<sub>A FACE IN THE STATIC · DRAWN ONE CHARACTER AT A TIME</sub>
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/noir-text-portrait.svg" width="100%" alt="Animated vintage crime-drama ASCII portrait made from text symbols" />
+<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/noir-text-portrait.svg" width="100%" alt="Animated Pablo Escobar text-symbol portrait study with vintage crime-drama motifs" />
 
 <br/>
 
-<sub>╾━╤デ╦︻ &nbsp; ✦ &nbsp; * * * &nbsp; A CINEMATIC FICTIONAL MOTIF — NOT AN ENDORSEMENT OF VIOLENCE</sub>
+<sub>╾━╤デ╦︻ &nbsp; ✦ &nbsp; * * * &nbsp; CINEMATIC FICTIONAL MOTIFS — NOT AN ENDORSEMENT OF VIOLENCE</sub>
 
 </div>
 
@@ -119,19 +119,7 @@ An independent technology venture exploring AI-powered solutions, software and d
 
 <div align="center">
 
-## 04 — THE TRAIL
-
-<sub>EVERY CONTRIBUTION LEAVES A TRACE</sub>
-
-<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated contribution trail" />
-
-</div>
-
----
-
-<div align="center">
-
-## 05 — THE NEXT CHAPTER
+## 04 — THE NEXT CHAPTER
 
 <img src="https://readme-typing-svg.demolab.com?font=Special+Elite&size=17&pause=2100&color=D4C49A&center=true&vCenter=true&width=720&height=55&lines=THE+WORK+IS+NEVER+FINISHED.;SILENCE+SPEAKS+LOUDER.;ONE+PRODUCT.+ONE+MOVE.+AT+A+TIME." alt="Animated closing lines" />
 
