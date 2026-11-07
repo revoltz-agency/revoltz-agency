@@ -97,22 +97,25 @@ An independent technology venture exploring AI-powered solutions, software and d
 
 <div align="center">
 
-## 03 — THE WORK LOG
+<div align="center">
 
-<sub>PROGRESS IS QUIET. THE RECORD IS PUBLIC.</sub>
+## 03 — THE PORTRAIT
 
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=revoltz-agency&theme=dark&hide_border=true&background=101712&ring=D4C49A&fire=9B5547&currStreakLabel=D4C49A&sideLabels=E9DFC5&dates=9EAA8D" width="82%" alt="GitHub contribution streak" />
+<sub>A FACE IN THE STATIC · A STORY TOLD IN SYMBOLS</sub>
 
 <br/><br/>
 
-<img src="https://img.shields.io/github/followers/revoltz-agency?label=FOLLOWERS&style=flat-square&color=D4C49A&labelColor=263A2A" alt="GitHub followers" />
-<img src="https://img.shields.io/github/stars/revoltz-agency?affiliations=OWNER%2CCOLLABORATOR&label=STARS&style=flat-square&color=9EAA8D&labelColor=263A2A" alt="GitHub stars" />
+<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/noir-text-portrait.svg" width="100%" alt="Animated vintage crime-drama ASCII portrait made from text symbols" />
+
+<br/>
+
+<sub>╾━╤デ╦︻ &nbsp; ✦ &nbsp; * * * &nbsp; A CINEMATIC FICTIONAL MOTIF — NOT AN ENDORSEMENT OF VIOLENCE</sub>
 
 </div>
 
 ---
+
+
 
 <div align="center">
 
