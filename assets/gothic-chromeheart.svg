@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+<title id="title">Gothic chromeheart sigil</title><desc id="desc">A symmetrical ornamental chrome heart with fine gothic filigree on a near-black field.</desc>
+<defs>
+ <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4fff9"/><stop offset=".18" stop-color="#788b82"/><stop offset=".36" stop-color="#e6f4ec"/><stop offset=".52" stop-color="#52645c"/><stop offset=".72" stop-color="#dce9e1"/><stop offset="1" stop-color="#718078"/></linearGradient>
+ <linearGradient id="line" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b8c9c0" stop-opacity=".9"/><stop offset="1" stop-color="#52645c" stop-opacity=".28"/></linearGradient>
+ <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>
+ .orn{fill:none;stroke:url(#line);stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round}
+ .fine{fill:none;stroke:#9aaca2;stroke-opacity:.5;stroke-width:.8}
+ .heart{fill:#101713;stroke:url(#chrome);stroke-width:3}
+ .pulse{transform-origin:600px 207px;animation:pulse 5s ease-in-out infinite}
+ @keyframes pulse{0%,100%{opacity:.78;filter:drop-shadow(0 0 2px #a9c1b5)}50%{opacity:1;filter:drop-shadow(0 0 9px #a9c1b5)}}
+ </style>
+</defs>
+<rect width="1200" height="430" fill="#080d0b"/>
+<path d="M0 215H390M810 215H1200" stroke="#314139" stroke-width="1"/>
+<path d="M70 215H360M840 215H1130" stroke="#71877a" stroke-opacity=".22" stroke-dasharray="2 9"/>
+<g class="orn">
+ <path d="M600 26V74M600 340V404M520 215H390M680 215H810"/>
+ <path d="M600 45C560 75 552 105 600 132C648 105 640 75 600 45Z"/>
+ <path d="M600 385C560 355 552 325 600 298C648 325 640 355 600 385Z"/>
+ <path d="M410 215C445 176 478 176 510 215C478 254 445 254 410 215Z"/>
+ <path d="M790 215C755 176 722 176 690 215C722 254 755 254 790 215Z"/>
+ <path d="M600 74C566 91 548 111 540 145M600 74C634 91 652 111 660 145M600 340C566 323 548 303 540 269M600 340C634 323 652 303 660 269"/>
+ <path d="M390 215C430 195 450 163 454 125C478 147 493 175 510 215C493 255 478 283 454 305C450 267 430 235 390 215Z"/>
+ <path d="M810 215C770 195 750 163 746 125C722 147 707 175 690 215C707 255 722 283 746 305C750 267 770 235 810 215Z"/>
+ <path d="M454 125C478 104 505 99 530 111M746 125C722 104 695 99 670 111M454 305C478 326 505 331 530 319M746 305C722 326 695 331 670 319"/>
+ <path d="M420 170C444 152 463 151 481 163M780 170C756 152 737 151 719 163M420 260C444 278 463 279 481 267M780 260C756 278 737 279 719 267"/>
+ <path d="M510 95C490 73 466 73 452 91C474 91 485 103 486 121M690 95C710 73 734 73 748 91C726 91 715 103 714 121"/>
+ <path d="M510 335C490 357 466 357 452 339C474 339 485 327 486 309M690 335C710 357 734 357 748 339C726 339 715 327 714 309"/>
+</g>
+<g class="pulse">
+ <path class="heart" d="M600 286C574 261 500 212 500 157C500 113 554 94 600 143C646 94 700 113 700 157C700 212 626 261 600 286Z"/>
+ <path d="M600 271C575 247 518 207 518 160C518 130 553 116 600 160C647 116 682 130 682 160C682 207 625 247 600 271Z" fill="none" stroke="url(#chrome)" stroke-width="1.1" opacity=".65"/>
+ <path d="M600 160C578 182 571 211 600 244C629 211 622 182 600 160Z" fill="none" stroke="#dbe9e1" stroke-opacity=".7" stroke-width="1"/>
+ <path d="M600 143V114M580 151L565 132M620 151L635 132" stroke="#dbe9e1" stroke-opacity=".7" stroke-width="1.2"/>
+ <circle cx="600" cy="207" r="4" fill="#e4f1e9" filter="url(#glow)"/>
+</g>
+<g class="fine">
+ <path d="M600 18L608 31L600 44L592 31Z M600 386L608 399L600 412L592 399Z"/>
+ <path d="M370 215L383 207L396 215L383 223Z M830 215L817 207L804 215L817 223Z"/>
+ <circle cx="600" cy="31" r="2"/><circle cx="600" cy="399" r="2"/>
+ <circle cx="383" cy="215" r="2"/><circle cx="817" cy="215" r="2"/>
+</g>
+<g fill="#9eafa5" font-family="monospace" font-size="10" letter-spacing="4" opacity=".7">
+ <text x="600" y="18" text-anchor="middle">R E V O L T Z  /  S Y S T E M S</text>
+ <text x="600" y="425" text-anchor="middle">B U I L T  I N  T H E  D A R K</text>
+</g>
+</svg>
