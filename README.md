@@ -1,140 +1,74 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-gothic-hero.svg" width="100%" alt="Animated abstract chrome cybersigil with sharp flowing symmetrical silver geometry" />
-
-<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-boot-sequence.svg" width="100%" alt="Animated Revoltz terminal boot sequence" />
+<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-gothic-hero.svg" width="100%" alt="Cinematic monochrome editorial artwork for LXSHXYA" />
 
 <br/>
 
-<a href="https://instagram.com/revoltz.ai"><img src="https://img.shields.io/badge/INSTAGRAM-080D0B?style=for-the-badge&logo=instagram&logoColor=DCE9E1" alt="Instagram" /></a>
-<a href="https://github.com/revoltz-agency"><img src="https://img.shields.io/badge/GITHUB-080D0B?style=for-the-badge&logo=github&logoColor=DCE9E1" alt="GitHub" /></a>
-<img src="https://komarev.com/ghpvc/?username=revoltz-agency&label=VISITORS&color=25352D&style=for-the-badge" alt="Profile visitors" />
-
-</div>
-
-<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/silver-sigil-divider.svg" width="100%" alt="Animated silver ornamental divider" />
-
-<div align="center">
-
-<sub>01 / THE OPERATOR</sub>
+<sub>INDEPENDENT BUILDER &nbsp; / &nbsp; AI · SAAS · DIGITAL PRODUCTS</sub>
 
 # L X S H X Y A
 
-**FOUNDER · AI & SAAS BUILDER**
+**BUILT IN THE DARK.**
 
-*BUILT IN THE DARK.*
-
-<sub>Ideas become systems. Systems become products.</sub>
+<a href="https://instagram.com/revoltz.ai">INSTAGRAM ↗</a> &nbsp; · &nbsp; <a href="https://github.com/revoltz-agency">GITHUB ↗</a>
 
 </div>
 
-I’m drawn to ambitious ideas, difficult problems and the process of turning concepts into useful products. Exploring AI, SaaS and startups by building, testing and refining.
-
-<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/silver-sigil-divider.svg" width="100%" alt="Animated silver ornamental divider" />
+---
 
 <div align="center">
-
-<sub>02 / ACTIVE EXPERIMENTS</sub>
-
-## THE PROJECT VAULT
-
-<sub>SELECTED SYSTEMS FROM THE REVOLTZ WORKSHOP</sub>
-
+<sub>01 — THE PRACTICE</sub>
 </div>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+I build products at the intersection of technology and ideas. Interested in ambitious problems, emerging tools and turning experiments into useful systems.
+
+**Current focus** &nbsp; Product thinking · AI workflows · SaaS · Building in public
+
+---
 
 <div align="center">
+<sub>02 — SELECTED WORK</sub>
 
-### 01 — DINETAP
-
-<sub>RESTAURANT TECHNOLOGY / SAAS</sub>
+## A FEW THINGS IN MOTION
 
 </div>
 
-A QR-based ordering platform built to simplify the guest experience and streamline restaurant operations.
+| PROJECT | WHAT IT IS | STATUS |
+|:--|:--|:--:|
+| **[DINETAP ↗](https://dinetap-by-revoltz.onrender.com/)** | QR ordering and restaurant operations, built for a smoother guest experience. | BUILDING |
+| **[REVOLTZ AI ↗](https://revoltz-agency.github.io/Revoltz/)** | Independent technology venture exploring AI-powered products and digital experiences. | ACTIVE |
+
+---
 
 <div align="center">
+<sub>03 — THE TOOLKIT</sub>
 
-<a href="https://dinetap-by-revoltz.onrender.com/"><img src="https://img.shields.io/badge/ACCESS_DINETAP-17231D?style=for-the-badge&logo=windowsterminal&logoColor=DCE9E1" alt="Open DineTap" /></a>
-
-</div>
-
-</td>
-<td width="50%" valign="top">
-
-<div align="center">
-
-### 02 — REVOLTZ AI
-
-<sub>ARTIFICIAL INTELLIGENCE / SOFTWARE</sub>
+## TOOLS & CRAFT
 
 </div>
 
-An independent technology venture exploring AI-powered solutions, intelligent tools and digital experiences.
-
-<div align="center">
-
-<a href="https://revoltz-agency.github.io/Revoltz/"><img src="https://img.shields.io/badge/ENTER_REVOLTZ-17231D?style=for-the-badge&logo=windowsterminal&logoColor=DCE9E1" alt="Visit Revoltz AI" /></a>
-
-</div>
-
-</td>
-</tr>
-</table>
-
-<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/silver-sigil-divider.svg" width="100%" alt="Animated silver ornamental divider" />
-
-<div align="center">
-
-<sub>03 / INSTALLED MODULES</sub>
-
-## THE TOOLCHAIN
-
-</div>
-
-```bash
-$ modules --list
-
-  AI & PRODUCT BUILDING
-  SAAS / STARTUP EXPLORATION
-  SOFTWARE DESIGN & EXPERIMENTATION
-
-$ tools --scan
-
-  [ ONLINE ]  CODEX
-  [ ONLINE ]  CLAUDE
-
-$ operator --status
-
-  LEARNING     ██████████  ACTIVE
-  BUILDING     ██████████  ACTIVE
-  REFINING     ██████████  ACTIVE
+```text
+/THINK       Product strategy · Problem discovery · Systems thinking
+/BUILD       AI tools · SaaS experiments · Web experiences
+/EXPLORE     Codex · Claude · New technologies
 ```
 
-<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/silver-sigil-divider.svg" width="100%" alt="Animated silver ornamental divider" />
+---
 
 <div align="center">
 
-<sub>04 / OPEN CHANNEL</sub>
+<sub>04 — OPEN CHANNEL</sub>
 
-## ESTABLISH CONNECTION
+## HAVE SOMETHING INTERESTING IN MIND?
 
-For ideas, collaborations or conversations:
+Ideas, collaborations and thoughtful conversations are welcome.
 
-<a href="https://instagram.com/revoltz.ai"><img src="https://img.shields.io/badge/@REVOLTZ.AI-080D0B?style=for-the-badge&logo=instagram&logoColor=DCE9E1" alt="Instagram @revoltz.ai" /></a>
-<a href="https://github.com/revoltz-agency"><img src="https://img.shields.io/badge/GITHUB-080D0B?style=for-the-badge&logo=github&logoColor=DCE9E1" alt="GitHub profile" /></a>
+<a href="https://instagram.com/revoltz.ai">INSTAGRAM ↗</a> &nbsp; / &nbsp; <a href="https://github.com/revoltz-agency">GITHUB ↗</a>
 
 <br/>
 
-<sub>NO NOISE. NO SHORTCUTS. JUST THE WORK.</sub>
+<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-gothic-hero.svg" width="100%" alt="LXSHXYA monochrome editorial signature artwork" />
 
-<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-gothic-hero.svg" width="100%" alt="Abstract chrome cybersigil with symmetrical silver ornamental geometry" />
-
-<sub>BUILT IN THE DARK.</sub>
-
-<sub>SESSION CLOSED · UNTIL THE NEXT CREATION</sub>
+<sub>LESS NOISE. MORE INTENT.</sub>
 
 </div>
