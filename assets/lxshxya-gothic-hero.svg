@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+<title id="t">LXSHXYA — chrome gothic system sigil</title><desc id="d">A luminous skeletal chrome spider woven into a delicate web, with an ornate gothic dagger and dotted ornamental geometry, on a black field.</desc>
+<defs>
+ <radialGradient id="bg"><stop stop-color="#18201d"/><stop offset=".55" stop-color="#090d0b"/><stop offset="1" stop-color="#030504"/></radialGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".18" stop-color="#718078"/><stop offset=".34" stop-color="#f4fff9"/><stop offset=".52" stop-color="#53625b"/><stop offset=".72" stop-color="#e5eee9"/><stop offset="1" stop-color="#87978f"/></linearGradient>
+ <linearGradient id="blade" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset=".3" stop-color="#a8b6ae"/><stop offset=".55" stop-color="#f4fff9"/><stop offset="1" stop-color="#46554d"/></linearGradient>
+ <filter id="shine" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+ <style>
+ .wire{fill:none;stroke:#aabbb1;stroke-opacity:.32;stroke-width:1}
+ .web{fill:none;stroke:#dce9e1;stroke-opacity:.38;stroke-width:1;stroke-dasharray:3 7}
+ .leg{fill:none;stroke:url(#silver);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+ .legthin{fill:none;stroke:#eaf4ee;stroke-opacity:.85;stroke-width:1.2;stroke-linecap:round}
+ .joint{fill:#101713;stroke:url(#silver);stroke-width:3}
+ .faint{fill:none;stroke:#94a69c;stroke-opacity:.3;stroke-width:1}
+ .spark{fill:#fff;filter:url(#shine)}
+ .float{animation:float 7s ease-in-out infinite}
+ .webflow{animation:webflow 18s linear infinite}
+ .twinkle{animation:twinkle 3.8s ease-in-out infinite}
+ @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+ @keyframes webflow{to{stroke-dashoffset:-120}}
+ @keyframes twinkle{0%,100%{opacity:.25}50%{opacity:1}}
+ </style>
+</defs>
+<rect width="1200" height="560" fill="url(#bg)"/>
+<ellipse cx="555" cy="260" rx="245" ry="190" fill="#b8c9c0" opacity=".055" filter="url(#soft)"/>
+<g class="webflow">
+ <path class="web" d="M110 270Q555 -70 1010 270Q555 610 110 270Z"/>
+ <path class="web" d="M150 270Q555 5 970 270Q555 535 150 270Z"/>
+ <path class="web" d="M210 270Q555 55 910 270Q555 485 210 270Z"/>
+ <path class="web" d="M555 25Q300 270 555 515Q810 270 555 25Z"/>
+ <path class="web" d="M315 65Q555 270 795 65M315 475Q555 270 795 475"/>
+ <path class="wire" d="M95 270L1015 270M555 25V515M180 85L930 455M180 455L930 85"/>
+</g>
+<!-- dotted ornamental seal: intentionally non-religious, circular and radial -->
+<g fill="#dce9e1" opacity=".72">
+ <circle cx="175" cy="270" r="2"/><circle cx="190" cy="270" r="2"/><circle cx="205" cy="270" r="2"/><circle cx="220" cy="270" r="2"/>
+ <circle cx="890" cy="270" r="2"/><circle cx="905" cy="270" r="2"/><circle cx="920" cy="270" r="2"/><circle cx="935" cy="270" r="2"/>
+ <circle cx="555" cy="72" r="2"/><circle cx="555" cy="87" r="2"/><circle cx="555" cy="102" r="2"/>
+ <circle cx="555" cy="438" r="2"/><circle cx="555" cy="453" r="2"/><circle cx="555" cy="468" r="2"/>
+</g>
+<g class="float">
+ <!-- eight articulated spider legs -->
+ <g class="leg">
+  <path d="M508 238L430 168L365 110L292 128L260 182"/>
+  <path d="M514 252L414 250L340 292L270 270L235 310"/>
+  <path d="M520 274L440 342L390 410L315 430L278 470"/>
+  <path d="M535 290L505 380L470 455L420 485L390 510"/>
+  <path d="M602 238L680 168L745 110L818 128L850 182"/>
+  <path d="M596 252L696 250L770 292L840 270L875 310"/>
+  <path d="M590 274L670 342L720 410L795 430L832 470"/>
+  <path d="M575 290L605 380L640 455L690 485L720 510"/>
+ </g>
+ <g class="legthin">
+  <path d="M508 238L430 168L365 110L292 128L260 182"/>
+  <path d="M514 252L414 250L340 292L270 270L235 310"/>
+  <path d="M520 274L440 342L390 410L315 430L278 470"/>
+  <path d="M535 290L505 380L470 455L420 485L390 510"/>
+  <path d="M602 238L680 168L745 110L818 128L850 182"/>
+  <path d="M596 252L696 250L770 292L840 270L875 310"/>
+  <path d="M590 274L670 342L720 410L795 430L832 470"/>
+  <path d="M575 290L605 380L640 455L690 485L720 510"/>
+ </g>
+ <g>
+  <circle class="joint" cx="430" cy="168" r="9"/><circle class="joint" cx="365" cy="110" r="7"/><circle class="joint" cx="292" cy="128" r="6"/>
+  <circle class="joint" cx="414" cy="250" r="9"/><circle class="joint" cx="340" cy="292" r="7"/><circle class="joint" cx="270" cy="270" r="6"/>
+  <circle class="joint" cx="440" cy="342" r="9"/><circle class="joint" cx="390" cy="410" r="7"/><circle class="joint" cx="315" cy="430" r="6"/>
+  <circle class="joint" cx="505" cy="380" r="8"/><circle class="joint" cx="470" cy="455" r="7"/>
+  <circle class="joint" cx="680" cy="168" r="9"/><circle class="joint" cx="745" cy="110" r="7"/><circle class="joint" cx="818" cy="128" r="6"/>
+  <circle class="joint" cx="696" cy="250" r="9"/><circle class="joint" cx="770" cy="292" r="7"/><circle class="joint" cx="840" cy="270" r="6"/>
+  <circle class="joint" cx="670" cy="342" r="9"/><circle class="joint" cx="720" cy="410" r="7"/><circle class="joint" cx="795" cy="430" r="6"/>
+  <circle class="joint" cx="605" cy="380" r="8"/><circle class="joint" cx="640" cy="455" r="7"/>
+ </g>
+ <!-- thorax and chrome heart abdomen -->
+ <path d="M555 205C525 177 480 199 480 238C480 279 555 321 555 321C555 321 630 279 630 238C630 199 585 177 555 205Z" fill="#080c0a" stroke="url(#silver)" stroke-width="4" filter="url(#shine)"/>
+ <path d="M555 216C532 196 495 211 495 240C495 271 555 304 555 304C555 304 615 271 615 240C615 211 578 196 555 216Z" fill="none" stroke="#e9f3ed" stroke-opacity=".6" stroke-width="1.4"/>
+ <ellipse cx="555" cy="185" rx="26" ry="21" fill="#0a100d" stroke="url(#silver)" stroke-width="3"/>
+ <circle cx="544" cy="181" r="4" fill="#fff"/><circle cx="566" cy="181" r="4" fill="#fff"/>
+ <path d="M538 164L520 145M572 164L590 145M535 195L510 210M575 195L600 210" stroke="url(#silver)" stroke-width="3" stroke-linecap="round"/>
+</g>
+<!-- ornate dagger, floating on right -->
+<g transform="translate(1000 125) rotate(18)" class="float">
+ <path d="M0 0L18 45L8 245L0 300L-8 245L-18 45Z" fill="url(#blade)" stroke="#f1faf4" stroke-width="1.4"/>
+ <path d="M0 16L4 220L0 274L-4 220Z" fill="#111915" opacity=".8"/>
+ <path d="M-48 42Q-24 25 0 44Q24 25 48 42Q27 65 0 57Q-27 65 -48 42Z" fill="#0b100d" stroke="url(#silver)" stroke-width="3"/>
+ <path d="M0 -42L-14 -8L0 10L14 -8Z" fill="#111713" stroke="url(#silver)" stroke-width="3"/>
+ <path d="M-18 10Q-33 -5 -40 -20Q-16 -20 0 -3Q16 -20 40 -20Q33 -5 18 10" fill="none" stroke="url(#silver)" stroke-width="3"/>
+ <circle cx="0" cy="42" r="5" fill="#fff" filter="url(#shine)"/>
+ <path d="M0 300L0 328" stroke="#dfeae4" stroke-width="2"/>
+</g>
+<!-- tiny silver glints -->
+<g class="twinkle"><path class="spark" d="M260 182l3 10 10 3-10 3-3 10-3-10-10-3 10-3z"/><path class="spark" d="M850 182l3 10 10 3-10 3-3 10-3-10-10-3 10-3z"/><path class="spark" d="M555 128l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/></g>
+<g fill="#b9c9c0" font-family="monospace" text-anchor="middle">
+ <text x="555" y="535" font-size="15" letter-spacing="11">L X S H X Y A</text>
+ <text x="555" y="553" font-size="8" letter-spacing="4" opacity=".7">BUILT IN THE DARK</text>
+</g>
+</svg>
