@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100" role="img" aria-label="Animated silver ornamental divider">
+<defs><linearGradient id="g"><stop stop-color="#52645b"/><stop offset=".5" stop-color="#f1faf4"/><stop offset="1" stop-color="#52645b"/></linearGradient></defs>
+<path d="M20 50H480M720 50H1180" stroke="#65786d" stroke-opacity=".55"/>
+<path d="M480 50Q520 5 560 50Q600 95 640 50Q680 5 720 50" fill="none" stroke="url(#g)" stroke-width="1.5" stroke-dasharray="5 5">
+<animate attributeName="stroke-dashoffset" values="0;40" dur="8s" repeatCount="indefinite"/></path>
+<path d="M600 13C570 35 570 65 600 87C630 65 630 35 600 13Z" fill="#0b1411" stroke="url(#g)" stroke-width="2"/>
+<path d="M600 25C584 38 584 62 600 75C616 62 616 38 600 25Z" fill="none" stroke="#c8d7ce" stroke-opacity=".7"/>
+<circle cx="600" cy="50" r="3" fill="#fff"><animate attributeName="opacity" values=".2;1;.2" dur="2.8s" repeatCount="indefinite"/></circle>
+<g fill="#cbd8d0"><circle cx="500" cy="50" r="2"/><circle cx="520" cy="50" r="1.5"/><circle cx="700" cy="50" r="2"/><circle cx="680" cy="50" r="1.5"/></g>
+</svg>
