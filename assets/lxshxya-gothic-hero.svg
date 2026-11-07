@@ -1,86 +1,86 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
-<title id="title">LXSHXYA — chromeheart cybersigil</title>
-<desc id="desc">A luminous silver chromeheart integrated with symmetrical gothic filigree, sharp ornamental curves and dotted cybersigil geometry on a black background.</desc>
+<title id="title">LXSHXYA — abstract chrome cybersigil</title>
+<desc id="desc">An original symmetrical abstract chrome cybersigil made of sharp flowing silver geometry, fine ornamental curves, dotted orbital patterns and luminous highlights on a black background. No literal objects or religious symbols.</desc>
 <defs>
- <radialGradient id="bg"><stop stop-color="#171b1a"/><stop offset=".52" stop-color="#090b0b"/><stop offset="1" stop-color="#020303"/></radialGradient>
- <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".17" stop-color="#75817d"/><stop offset=".34" stop-color="#f7fffb"/><stop offset=".52" stop-color="#58625f"/><stop offset=".72" stop-color="#edf4f0"/><stop offset="1" stop-color="#697570"/></linearGradient>
- <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f7fffb"/><stop offset="1" stop-color="#65716c"/></linearGradient>
- <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
- <filter id="haze" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="18"/></filter>
+ <radialGradient id="bg"><stop stop-color="#171c1a"/><stop offset=".48" stop-color="#080c0a"/><stop offset="1" stop-color="#020303"/></radialGradient>
+ <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".16" stop-color="#697770"/><stop offset=".32" stop-color="#f5fff9"/><stop offset=".5" stop-color="#52605a"/><stop offset=".7" stop-color="#e8f2ec"/><stop offset="1" stop-color="#77867e"/></linearGradient>
+ <linearGradient id="silverLine" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset=".48" stop-color="#aabbb1"/><stop offset="1" stop-color="#56645c"/></linearGradient>
+ <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="haze" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="20"/></filter>
  <style>
- .filigree{fill:none;stroke:url(#chrome);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
- .hair{fill:none;stroke:#d9e4de;stroke-opacity:.55;stroke-width:1}
- .dotted{fill:none;stroke:#dce8e1;stroke-width:2;stroke-linecap:round;stroke-dasharray:.1 11;opacity:.8}
- .heart{fill:#090d0b;stroke:url(#chrome);stroke-width:4;stroke-linejoin:round}
- .shine{fill:none;stroke:#fff;stroke-opacity:.82;stroke-width:1.15}
- .orbit{transform-origin:600px 270px;animation:orbit 32s linear infinite}
- .beat{transform-origin:600px 270px;animation:beat 5s ease-in-out infinite}
- .shimmer{animation:shimmer 4.5s ease-in-out infinite}
- .drift{animation:drift 7s ease-in-out infinite}
+ .metal{fill:none;stroke:url(#chrome);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+ .thin{fill:none;stroke:#d9e5de;stroke-opacity:.48;stroke-width:1}
+ .dash{fill:none;stroke:#e7f1eb;stroke-width:1.25;stroke-linecap:round;stroke-dasharray:2 12;opacity:.8}
+ .trace{fill:none;stroke:url(#silverLine);stroke-width:1.2;stroke-dasharray:8 16;animation:trace 14s linear infinite}
+ .orbit{transform-origin:600px 270px;animation:orbit 55s linear infinite}
+ .counter{transform-origin:600px 270px;animation:counter 70s linear infinite}
+ .glint{animation:glint 4s ease-in-out infinite}
+ .breathe{animation:breathe 8s ease-in-out infinite}
+ @keyframes trace{to{stroke-dashoffset:-240}}
  @keyframes orbit{to{transform:rotate(360deg)}}
- @keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.025)}}
- @keyframes shimmer{0%,100%{opacity:.35}50%{opacity:1}}
- @keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+ @keyframes counter{to{transform:rotate(-360deg)}}
+ @keyframes glint{0%,100%{opacity:.2}50%{opacity:1}}
+ @keyframes breathe{0%,100%{opacity:.72}50%{opacity:1}}
  </style>
 </defs>
 <rect width="1200" height="560" fill="url(#bg)"/>
-<ellipse cx="600" cy="270" rx="270" ry="190" fill="#dbe8e0" opacity=".07" filter="url(#haze)"/>
-<!-- outer dotted geometry -->
+<ellipse cx="600" cy="267" rx="310" ry="205" fill="#dce9e1" opacity=".065" filter="url(#haze)"/>
+<!-- slow orbital geometry -->
 <g class="orbit">
- <ellipse class="dotted" cx="600" cy="270" rx="420" ry="190"/>
- <ellipse class="dotted" cx="600" cy="270" rx="360" ry="235" transform="rotate(45 600 270)"/>
- <ellipse class="hair" cx="600" cy="270" rx="450" ry="210"/>
- <path class="hair" d="M600 34C760 125 845 184 900 270C845 356 760 415 600 506C440 415 355 356 300 270C355 184 440 125 600 34Z"/>
+ <ellipse class="dash" cx="600" cy="267" rx="435" ry="192"/>
+ <ellipse class="thin" cx="600" cy="267" rx="465" ry="218"/>
+ <path class="thin" d="M600 35C770 110 865 183 925 267C865 351 770 424 600 499C430 424 335 351 275 267C335 183 430 110 600 35Z"/>
+ <path class="thin" d="M600 70C720 135 805 195 865 267C805 339 720 399 600 464C480 399 395 339 335 267C395 195 480 135 600 70Z"/>
 </g>
-<!-- sharp outer ornaments -->
-<g class="filigree">
- <path d="M600 44C570 88 572 120 600 151C628 120 630 88 600 44Z"/>
- <path d="M600 496C570 452 572 420 600 389C628 420 630 452 600 496Z"/>
- <path d="M286 270C330 240 362 242 394 270C362 298 330 300 286 270Z"/>
- <path d="M914 270C870 240 838 242 806 270C838 298 870 300 914 270Z"/>
- <path d="M390 110Q450 112 476 174Q425 159 390 110ZM810 110Q750 112 724 174Q775 159 810 110Z"/>
- <path d="M390 430Q450 428 476 366Q425 381 390 430ZM810 430Q750 428 724 366Q775 381 810 430Z"/>
- <path d="M490 85Q540 112 548 174Q505 151 490 85ZM710 85Q660 112 652 174Q695 151 710 85Z"/>
- <path d="M490 455Q540 428 548 366Q505 389 490 455ZM710 455Q660 428 652 366Q695 389 710 455Z"/>
+<g class="counter">
+ <ellipse class="dash" cx="600" cy="267" rx="350" ry="235" transform="rotate(45 600 267)"/>
+ <ellipse class="thin" cx="600" cy="267" rx="285" ry="210" transform="rotate(-45 600 267)"/>
 </g>
-<!-- fine ornamental scrolls, mirrored -->
-<g class="hair">
- <path d="M600 68C550 118 500 112 478 158C457 202 496 212 518 185C540 158 509 137 489 156"/>
- <path d="M600 68C650 118 700 112 722 158C743 202 704 212 682 185C660 158 691 137 711 156"/>
- <path d="M600 472C550 422 500 428 478 382C457 338 496 328 518 355C540 382 509 403 489 384"/>
- <path d="M600 472C650 422 700 428 722 382C743 338 704 328 682 355C660 382 691 403 711 384"/>
- <path d="M315 270Q400 202 474 242Q512 270 474 298Q400 338 315 270Z"/>
- <path d="M885 270Q800 202 726 242Q688 270 726 298Q800 338 885 270Z"/>
+<!-- symmetrical sharp flowing core: abstract, non-object geometry -->
+<g class="breathe">
+ <path class="metal" d="M600 70C575 132 525 154 476 172C518 183 553 207 565 250C530 226 486 220 430 234C488 260 529 298 546 355C568 326 584 292 600 254C616 292 632 326 654 355C671 298 712 260 770 234C714 220 670 226 635 250C647 207 682 183 724 172C675 154 625 132 600 70Z"/>
+ <path class="metal" d="M600 92C586 151 580 195 600 254C620 195 614 151 600 92Z"/>
+ <path class="metal" d="M600 254C561 280 536 326 524 397C562 370 585 337 600 292C615 337 638 370 676 397C664 326 639 280 600 254Z"/>
+ <path class="metal" d="M476 172C453 136 430 118 395 105C410 147 433 177 476 196M724 172C747 136 770 118 805 105C790 147 767 177 724 196"/>
+ <path class="metal" d="M430 234C386 222 348 227 309 250C356 267 394 269 440 253M770 234C814 222 852 227 891 250C844 267 806 269 760 253"/>
+ <path class="metal" d="M546 355C513 395 482 422 433 440C450 394 482 362 524 338M654 355C687 395 718 422 767 440C750 394 718 362 676 338"/>
 </g>
-<!-- central chromeheart -->
-<g class="beat">
- <path d="M600 365C557 330 456 267 456 197C456 132 530 104 600 174C670 104 744 132 744 197C744 267 643 330 600 365Z" fill="#dce8e1" opacity=".13" filter="url(#haze)"/>
- <path class="heart" d="M600 352C559 318 470 261 470 200C470 144 532 119 600 184C668 119 730 144 730 200C730 261 641 318 600 352Z" filter="url(#glow)"/>
- <path d="M600 331C565 302 489 251 489 202C489 160 540 141 600 200C660 141 711 160 711 202C711 251 635 302 600 331Z" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
- <path class="shine" d="M600 184C574 160 544 151 523 165M600 184C626 160 656 151 677 165"/>
- <path class="filigree" d="M600 352C578 326 576 300 600 279C624 300 622 326 600 352Z"/>
- <path class="hair" d="M600 279C566 247 546 224 550 195M600 279C634 247 654 224 650 195"/>
- <path class="filigree" d="M470 200Q440 182 424 202Q449 211 470 200M730 200Q760 182 776 202Q751 211 730 200"/>
- <circle cx="600" cy="264" r="5" fill="#fff" filter="url(#glow)"/>
+<!-- fine filigree curls at the edges -->
+<g class="thin">
+ <path d="M600 104C548 126 500 117 478 83C465 62 485 49 501 63C515 76 501 92 488 83"/>
+ <path d="M600 104C652 126 700 117 722 83C735 62 715 49 699 63C685 76 699 92 712 83"/>
+ <path d="M600 430C548 408 500 417 478 451C465 472 485 485 501 471C515 458 501 442 488 451"/>
+ <path d="M600 430C652 408 700 417 722 451C735 472 715 485 699 471C685 458 699 442 712 451"/>
+ <path d="M300 267C354 205 405 194 450 220C476 236 468 263 445 265C425 267 418 248 433 239"/>
+ <path d="M900 267C846 205 795 194 750 220C724 236 732 263 755 265C775 267 782 248 767 239"/>
+ <path d="M350 267C398 305 430 321 470 306M850 267C802 305 770 321 730 306"/>
 </g>
-<!-- ornamental chrome thorns / filigree around heart -->
-<g class="filigree">
- <path d="M470 200Q420 172 405 125Q450 144 476 174"/>
- <path d="M730 200Q780 172 795 125Q750 144 724 174"/>
- <path d="M480 286Q438 314 424 361Q465 345 500 313"/>
- <path d="M720 286Q762 314 776 361Q735 345 700 313"/>
- <path d="M545 143Q520 111 535 83Q558 106 558 130M655 143Q680 111 665 83Q642 106 642 130"/>
- <path d="M545 397Q520 429 535 457Q558 434 558 410M655 397Q680 429 665 457Q642 434 642 410"/>
+<!-- central fine vertical axis and etched linework -->
+<g class="metal">
+ <path d="M600 45L600 515"/>
+ <path d="M588 120L600 95L612 120M588 414L600 439L612 414"/>
+ <path d="M565 250L600 267L635 250"/>
+ <path d="M546 355L600 385L654 355"/>
 </g>
-<!-- small diamond-like glints, not religious iconography -->
-<g class="shimmer" fill="#fff" filter="url(#glow)">
- <path d="M600 82l3 10 10 3-10 3-3 10-3-10-10-3 10-3Z"/>
- <path d="M600 445l3 10 10 3-10 3-3 10-3-10-10-3 10-3Z"/>
- <path d="M365 270l3 8 8 3-8 3-3 8-3-8-8-3 8-3Z"/>
- <path d="M835 270l3 8 8 3-8 3-3 8-3-8-8-3 8-3Z"/>
+<g class="trace">
+ <path d="M600 55C520 145 450 180 350 267C450 354 520 389 600 480C680 389 750 354 850 267C750 180 680 145 600 55Z"/>
+ <path d="M600 85C670 150 720 206 755 267C720 328 670 384 600 449C530 384 480 328 445 267C480 206 530 150 600 85Z"/>
 </g>
-<g fill="#d7e2dc" font-family="monospace" text-anchor="middle">
- <text x="600" y="525" font-size="17" letter-spacing="12">L X S H X Y A</text>
- <text x="600" y="545" font-size="9" letter-spacing="5" opacity=".72">BUILT IN THE DARK</text>
+<!-- dotted accents -->
+<g fill="#e8f1ec" opacity=".82">
+ <circle cx="600" cy="40" r="2"/><circle cx="600" cy="55" r="1.5"/><circle cx="600" cy="70" r="1.5"/>
+ <circle cx="600" cy="490" r="1.5"/><circle cx="600" cy="505" r="1.5"/><circle cx="600" cy="520" r="2"/>
+ <circle cx="255" cy="267" r="2"/><circle cx="270" cy="267" r="1.5"/><circle cx="285" cy="267" r="1.5"/>
+ <circle cx="915" cy="267" r="1.5"/><circle cx="930" cy="267" r="1.5"/><circle cx="945" cy="267" r="2"/>
+</g>
+<g class="glint" fill="#fff" filter="url(#glow)">
+ <path d="M600 64l3 10 10 3-10 3-3 10-3-10-10-3 10-3Z"/>
+ <path d="M600 462l3 10 10 3-10 3-3 10-3-10-10-3 10-3Z"/>
+ <path d="M320 267l3 8 8 3-8 3-3 8-3-8-8-3 8-3Z"/>
+ <path d="M880 267l3 8 8 3-8 3-3 8-3-8-8-3 8-3Z"/>
+</g>
+<g fill="#dce8e1" font-family="monospace" text-anchor="middle">
+ <text x="600" y="535" font-size="17" letter-spacing="12">L X S H X Y A</text>
+ <text x="600" y="552" font-size="9" letter-spacing="5" opacity=".72">BUILT IN THE DARK</text>
 </g>
 </svg>
