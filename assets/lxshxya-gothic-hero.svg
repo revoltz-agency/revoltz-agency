@@ -1,86 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
-<title id="title">LXSHXYA — abstract chrome cybersigil</title>
-<desc id="desc">An original symmetrical abstract chrome cybersigil made of sharp flowing silver geometry, fine ornamental curves, dotted orbital patterns and luminous highlights on a black background. No literal objects or religious symbols.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="t d">
+<title id="t">LXSHXYA — built in the dark</title><desc id="d">A cinematic monochrome digital editorial cover with oversized typography, fine silver interference lines and restrained moving light.</desc>
 <defs>
- <radialGradient id="bg"><stop stop-color="#171c1a"/><stop offset=".48" stop-color="#080c0a"/><stop offset="1" stop-color="#020303"/></radialGradient>
- <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".16" stop-color="#697770"/><stop offset=".32" stop-color="#f5fff9"/><stop offset=".5" stop-color="#52605a"/><stop offset=".7" stop-color="#e8f2ec"/><stop offset="1" stop-color="#77867e"/></linearGradient>
- <linearGradient id="silverLine" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset=".48" stop-color="#aabbb1"/><stop offset="1" stop-color="#56645c"/></linearGradient>
- <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
- <filter id="haze" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="20"/></filter>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090b0a"/><stop offset=".55" stop-color="#111614"/><stop offset="1" stop-color="#050606"/></linearGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".25" stop-color="#87938d"/><stop offset=".5" stop-color="#e7eee9"/><stop offset=".75" stop-color="#56615b"/><stop offset="1" stop-color="#cdd7d1"/></linearGradient>
+ <radialGradient id="light"><stop stop-color="#b9c8bf" stop-opacity=".18"/><stop offset="1" stop-color="#b9c8bf" stop-opacity="0"/></radialGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .7 0 0 0 0 .8 0 0 0 0 .75 0 0 0 .08 0"/></filter>
  <style>
- .metal{fill:none;stroke:url(#chrome);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
- .thin{fill:none;stroke:#d9e5de;stroke-opacity:.48;stroke-width:1}
- .dash{fill:none;stroke:#e7f1eb;stroke-width:1.25;stroke-linecap:round;stroke-dasharray:2 12;opacity:.8}
- .trace{fill:none;stroke:url(#silverLine);stroke-width:1.2;stroke-dasharray:8 16;animation:trace 14s linear infinite}
- .orbit{transform-origin:600px 270px;animation:orbit 55s linear infinite}
- .counter{transform-origin:600px 270px;animation:counter 70s linear infinite}
- .glint{animation:glint 4s ease-in-out infinite}
- .breathe{animation:breathe 8s ease-in-out infinite}
- @keyframes trace{to{stroke-dashoffset:-240}}
- @keyframes orbit{to{transform:rotate(360deg)}}
- @keyframes counter{to{transform:rotate(-360deg)}}
- @keyframes glint{0%,100%{opacity:.2}50%{opacity:1}}
- @keyframes breathe{0%,100%{opacity:.72}50%{opacity:1}}
+ .micro{font:11px 'Courier New',monospace;letter-spacing:3px;fill:#9aa69f}
+ .hair{fill:none;stroke:#c7d2cb;stroke-opacity:.28;stroke-width:1}
+ .ribbon{fill:none;stroke:url(#silver);stroke-width:1.4;stroke-linecap:round}
+ .title{font:900 102px Arial,sans-serif;letter-spacing:9px;fill:url(#silver)}
+ .reveal{animation:reveal 2s cubic-bezier(.2,.7,.2,1) both}
+ .scan{animation:scan 9s ease-in-out infinite}
+ .float{animation:float 8s ease-in-out infinite}
+ .dash{stroke-dasharray:3 13;animation:dash 18s linear infinite}
+ @keyframes reveal{from{opacity:0;transform:translateY(18px);filter:blur(8px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}
+ @keyframes scan{0%,100%{transform:translateX(-160px);opacity:0}20%,75%{opacity:.6}50%{transform:translateX(160px);opacity:.18}}
+ @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+ @keyframes dash{to{stroke-dashoffset:-256}}
  </style>
 </defs>
-<rect width="1200" height="560" fill="url(#bg)"/>
-<ellipse cx="600" cy="267" rx="310" ry="205" fill="#dce9e1" opacity=".065" filter="url(#haze)"/>
-<!-- slow orbital geometry -->
-<g class="orbit">
- <ellipse class="dash" cx="600" cy="267" rx="435" ry="192"/>
- <ellipse class="thin" cx="600" cy="267" rx="465" ry="218"/>
- <path class="thin" d="M600 35C770 110 865 183 925 267C865 351 770 424 600 499C430 424 335 351 275 267C335 183 430 110 600 35Z"/>
- <path class="thin" d="M600 70C720 135 805 195 865 267C805 339 720 399 600 464C480 399 395 339 335 267C395 195 480 135 600 70Z"/>
+<rect width="1200" height="470" fill="url(#bg)"/>
+<ellipse cx="910" cy="230" rx="310" ry="240" fill="url(#light)" filter="url(#blur)"/>
+<path d="M0 22H1200M0 448H1200" stroke="#87948c" stroke-opacity=".25"/>
+<g class="micro"><text x="46" y="54">REVOLTZ / PERSONAL ARCHIVE</text><text x="1154" y="54" text-anchor="end">VOL. 001 — 2026</text></g>
+<g class="reveal">
+ <text class="micro" x="62" y="164">INDEPENDENT BUILDER · AI / SAAS / SYSTEMS</text>
+ <text class="title" x="54" y="270">LXSHXYA</text>
+ <path d="M64 294H630" stroke="url(#silver)" stroke-width="1.2"/>
+ <text x="64" y="337" font-family="Arial,sans-serif" font-size="27" font-weight="300" letter-spacing="7" fill="#dce5df">BUILT IN THE DARK.</text>
+ <text class="micro" x="64" y="382">IDEAS → SYSTEMS → PRODUCTS</text>
 </g>
-<g class="counter">
- <ellipse class="dash" cx="600" cy="267" rx="350" ry="235" transform="rotate(45 600 267)"/>
- <ellipse class="thin" cx="600" cy="267" rx="285" ry="210" transform="rotate(-45 600 267)"/>
+<g class="float">
+ <path class="hair" d="M730 100C830 160 1020 80 1118 176S1018 337 906 355 770 321 728 390"/>
+ <path class="ribbon" d="M744 78C844 145 1025 65 1127 167S1028 351 914 367 780 331 741 410"/>
+ <path class="hair dash" d="M770 56C874 131 1038 52 1150 155S1040 373 924 390 794 345 758 427"/>
+ <path class="ribbon" d="M815 82C894 157 1010 112 1080 190S1005 315 923 332 826 310 798 370"/>
+ <path class="hair" d="M850 65C914 131 1018 126 1051 197S985 286 918 300 851 282 833 331"/>
+ <path d="M730 100C830 160 1020 80 1118 176S1018 337 906 355 770 321 728 390" fill="none" stroke="#f4fff8" stroke-opacity=".5" stroke-width="14" filter="url(#blur)"/>
+ <path class="ribbon" d="M740 238Q850 190 920 230T1110 236"/>
 </g>
-<!-- symmetrical sharp flowing core: abstract, non-object geometry -->
-<g class="breathe">
- <path class="metal" d="M600 70C575 132 525 154 476 172C518 183 553 207 565 250C530 226 486 220 430 234C488 260 529 298 546 355C568 326 584 292 600 254C616 292 632 326 654 355C671 298 712 260 770 234C714 220 670 226 635 250C647 207 682 183 724 172C675 154 625 132 600 70Z"/>
- <path class="metal" d="M600 92C586 151 580 195 600 254C620 195 614 151 600 92Z"/>
- <path class="metal" d="M600 254C561 280 536 326 524 397C562 370 585 337 600 292C615 337 638 370 676 397C664 326 639 280 600 254Z"/>
- <path class="metal" d="M476 172C453 136 430 118 395 105C410 147 433 177 476 196M724 172C747 136 770 118 805 105C790 147 767 177 724 196"/>
- <path class="metal" d="M430 234C386 222 348 227 309 250C356 267 394 269 440 253M770 234C814 222 852 227 891 250C844 267 806 269 760 253"/>
- <path class="metal" d="M546 355C513 395 482 422 433 440C450 394 482 362 524 338M654 355C687 395 718 422 767 440C750 394 718 362 676 338"/>
-</g>
-<!-- fine filigree curls at the edges -->
-<g class="thin">
- <path d="M600 104C548 126 500 117 478 83C465 62 485 49 501 63C515 76 501 92 488 83"/>
- <path d="M600 104C652 126 700 117 722 83C735 62 715 49 699 63C685 76 699 92 712 83"/>
- <path d="M600 430C548 408 500 417 478 451C465 472 485 485 501 471C515 458 501 442 488 451"/>
- <path d="M600 430C652 408 700 417 722 451C735 472 715 485 699 471C685 458 699 442 712 451"/>
- <path d="M300 267C354 205 405 194 450 220C476 236 468 263 445 265C425 267 418 248 433 239"/>
- <path d="M900 267C846 205 795 194 750 220C724 236 732 263 755 265C775 267 782 248 767 239"/>
- <path d="M350 267C398 305 430 321 470 306M850 267C802 305 770 321 730 306"/>
-</g>
-<!-- central fine vertical axis and etched linework -->
-<g class="metal">
- <path d="M600 45L600 515"/>
- <path d="M588 120L600 95L612 120M588 414L600 439L612 414"/>
- <path d="M565 250L600 267L635 250"/>
- <path d="M546 355L600 385L654 355"/>
-</g>
-<g class="trace">
- <path d="M600 55C520 145 450 180 350 267C450 354 520 389 600 480C680 389 750 354 850 267C750 180 680 145 600 55Z"/>
- <path d="M600 85C670 150 720 206 755 267C720 328 670 384 600 449C530 384 480 328 445 267C480 206 530 150 600 85Z"/>
-</g>
-<!-- dotted accents -->
-<g fill="#e8f1ec" opacity=".82">
- <circle cx="600" cy="40" r="2"/><circle cx="600" cy="55" r="1.5"/><circle cx="600" cy="70" r="1.5"/>
- <circle cx="600" cy="490" r="1.5"/><circle cx="600" cy="505" r="1.5"/><circle cx="600" cy="520" r="2"/>
- <circle cx="255" cy="267" r="2"/><circle cx="270" cy="267" r="1.5"/><circle cx="285" cy="267" r="1.5"/>
- <circle cx="915" cy="267" r="1.5"/><circle cx="930" cy="267" r="1.5"/><circle cx="945" cy="267" r="2"/>
-</g>
-<g class="glint" fill="#fff" filter="url(#glow)">
- <path d="M600 64l3 10 10 3-10 3-3 10-3-10-10-3 10-3Z"/>
- <path d="M600 462l3 10 10 3-10 3-3 10-3-10-10-3 10-3Z"/>
- <path d="M320 267l3 8 8 3-8 3-3 8-3-8-8-3 8-3Z"/>
- <path d="M880 267l3 8 8 3-8 3-3 8-3-8-8-3 8-3Z"/>
-</g>
-<g fill="#dce8e1" font-family="monospace" text-anchor="middle">
- <text x="600" y="535" font-size="17" letter-spacing="12">L X S H X Y A</text>
- <text x="600" y="552" font-size="9" letter-spacing="5" opacity=".72">BUILT IN THE DARK</text>
-</g>
+<g class="scan"><path d="M850 70V405" stroke="#effff5" stroke-width="42" opacity=".13" filter="url(#blur)"/></g>
+<rect width="1200" height="470" filter="url(#grain)" opacity=".28"/>
+<g class="micro"><text x="46" y="430">NO NOISE. JUST THE WORK.</text><text x="1154" y="430" text-anchor="end">SYSTEM STATUS: BUILDING</text></g>
 </svg>
