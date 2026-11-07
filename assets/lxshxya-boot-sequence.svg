@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-labelledby="title desc">
+<title id="title">LXSHXYA system boot log</title><desc id="desc">An animated dark terminal boot sequence introducing the creator and active projects.</desc>
+<rect x="1" y="1" width="998" height="248" rx="9" fill="#080d0b" stroke="#53685d" stroke-opacity=".65"/>
+<path d="M1 36H999" stroke="#53685d" stroke-opacity=".6"/>
+<circle cx="22" cy="19" r="4" fill="#dce9e1" opacity=".7"/><circle cx="39" cy="19" r="4" fill="#91a99a" opacity=".7"/><circle cx="56" cy="19" r="4" fill="#50685a" opacity=".8"/>
+<text x="80" y="23" fill="#8fa397" font-family="monospace" font-size="11" letter-spacing="2">REVOLTZ :: PRIVATE TERMINAL</text>
+<g fill="#dce9e1" font-family="monospace" font-size="15">
+ <text x="32" y="72" opacity="0">[ OK ]  CORE INITIALIZED<tspan><animate attributeName="opacity" values="0;1" begin=".3s" dur=".5s" fill="freeze"/></tspan></text>
+ <text x="32" y="108" opacity="0">[ OK ]  OPERATOR IDENTIFIED: LXSHXYA<animate attributeName="opacity" values="0;1" begin="1.1s" dur=".5s" fill="freeze"/></text>
+ <text x="32" y="144" opacity="0">[ OK ]  ACTIVE SYSTEMS: DINETAP / REVOLTZ AI<animate attributeName="opacity" values="0;1" begin="1.9s" dur=".5s" fill="freeze"/></text>
+ <text x="32" y="180" opacity="0">[ OK ]  DIRECTIVE: BUILD WHAT COMES NEXT<animate attributeName="opacity" values="0;1" begin="2.7s" dur=".5s" fill="freeze"/></text>
+ <text x="32" y="218" fill="#9fb9aa">AWAITING COMMAND<tspan><animate attributeName="opacity" values="0;1" begin="3.5s" dur=".4s" fill="freeze"/></tspan></text>
+</g>
+<rect x="239" y="203" width="10" height="17" fill="#dce9e1"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+</svg>
