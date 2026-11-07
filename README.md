@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-gothic-hero.svg" width="100%" alt="Cinematic monochrome editorial artwork for LXSHXYA" />
+<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-gothic-hero.svg" width="100%" alt="Animated abstract chrome cybersigil artwork" />
 
 <br/>
 
@@ -20,22 +20,28 @@
 <sub>01 — THE PRACTICE</sub>
 </div>
 
-I build products at the intersection of technology and ideas. Interested in ambitious problems, emerging tools and turning experiments into useful systems.
+I build products at the intersection of technology and ideas — turning ambitious problems, emerging tools and experiments into useful systems.
 
-**Current focus** &nbsp; Product thinking · AI workflows · SaaS · Building in public
+**CURRENT FOCUS** &nbsp; Product thinking · AI workflows · SaaS · Digital experiences
+
+<br/>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-boot-sequence.svg" width="100%" alt="Animated system initialization log" />
+</div>
 
 ---
 
 <div align="center">
 <sub>02 — SELECTED WORK</sub>
 
-## A FEW THINGS IN MOTION
+## PROJECT ARCHIVE
 
 </div>
 
-| PROJECT | WHAT IT IS | STATUS |
+| PROJECT | SIGNAL | STATUS |
 |:--|:--|:--:|
-| **[DINETAP ↗](https://dinetap-by-revoltz.onrender.com/)** | QR ordering and restaurant operations, built for a smoother guest experience. | BUILDING |
+| **[DINETAP ↗](https://dinetap-by-revoltz.onrender.com/)** | QR ordering and restaurant operations, designed for a smoother guest experience. | BUILDING |
 | **[REVOLTZ AI ↗](https://revoltz-agency.github.io/Revoltz/)** | Independent technology venture exploring AI-powered products and digital experiences. | ACTIVE |
 
 ---
@@ -43,31 +49,29 @@ I build products at the intersection of technology and ideas. Interested in ambi
 <div align="center">
 <sub>03 — THE TOOLKIT</sub>
 
-## TOOLS & CRAFT
+## CAPABILITIES / MODULES
 
 </div>
 
 ```text
-/THINK       Product strategy · Problem discovery · Systems thinking
+/STRATEGY    Product thinking · Problem discovery · Systems design
 /BUILD       AI tools · SaaS experiments · Web experiences
-/EXPLORE     Codex · Claude · New technologies
+/RESEARCH    Emerging technologies · Rapid prototyping
+/TOOLS       Codex · Claude
 ```
 
 ---
 
 <div align="center">
-
 <sub>04 — OPEN CHANNEL</sub>
 
-## HAVE SOMETHING INTERESTING IN MIND?
+## MAKE SOMETHING MEANINGFUL.
 
 Ideas, collaborations and thoughtful conversations are welcome.
 
 <a href="https://instagram.com/revoltz.ai">INSTAGRAM ↗</a> &nbsp; / &nbsp; <a href="https://github.com/revoltz-agency">GITHUB ↗</a>
 
 <br/>
-
-<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-gothic-hero.svg" width="100%" alt="LXSHXYA monochrome editorial signature artwork" />
 
 <sub>LESS NOISE. MORE INTENT.</sub>
 
