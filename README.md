@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=600&size=20&pause=1100&color=C59BFF&center=true&vCenter=true&width=850&height=70&lines=Hi!+I'm+revoltz-agency+%F0%9F%91%8B" width="100%" alt="Animated introduction with four rotating messages" />
+<img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=600&size=20&pause=1100&color=C59BFF&center=true&vCenter=true&width=850&height=70&lines=Hi!+I'm+Lxshxya+%F0%9F%91%8B" width="100%" alt="Animated introduction with four rotating messages" />
 
 <br/>
 
