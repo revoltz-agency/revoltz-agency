@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-gothic-hero.svg" width="100%" alt="A cinematic liquid-chrome sculpture emerging from a black graphite environment" />
+<img src="https://raw.githubusercontent.com/revoltz-agency/revoltz-agency/main/assets/lxshxya-gothic-hero.svg?v=ca8a3da" width="100%" alt="A cinematic liquid-chrome sculpture emerging from a black graphite environment" />
 
 <br/>
 
