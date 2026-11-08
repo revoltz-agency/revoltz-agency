@@ -1,74 +1,56 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" fill="none">
 <defs>
-  <linearGradient id="chrome" x1="170" y1="70" x2="1020" y2="460" gradientUnits="userSpaceOnUse">
-    <stop offset="0" stop-color="#24272A"/>
-    <stop offset=".16" stop-color="#F4F6F7"/>
-    <stop offset=".27" stop-color="#62686D"/>
-    <stop offset=".39" stop-color="#FDFDFD"/>
-    <stop offset=".52" stop-color="#555B60"/>
-    <stop offset=".67" stop-color="#D9DDE0"/>
-    <stop offset=".82" stop-color="#353A3E"/>
-    <stop offset="1" stop-color="#AEB4B8"/>
+  <linearGradient id="chrome" x1="0" y1="120" x2="0" y2="390" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#34393D"/>
+    <stop offset=".13" stop-color="#F7F9FA"/>
+    <stop offset=".25" stop-color="#777F84"/>
+    <stop offset=".39" stop-color="#FFFFFF"/>
+    <stop offset=".53" stop-color="#5A6268"/>
+    <stop offset=".68" stop-color="#E8ECEE"/>
+    <stop offset=".82" stop-color="#626A70"/>
+    <stop offset="1" stop-color="#D5DADD"/>
   </linearGradient>
-  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#fff" stop-opacity=".04"/>
-    <stop offset=".48" stop-color="#fff" stop-opacity=".95"/>
-    <stop offset="1" stop-color="#7C858B" stop-opacity=".08"/>
-  </linearGradient>
-  <radialGradient id="spot" cx="0" cy="0" r="1" gradientTransform="matrix(430 190 -270 610 590 230)" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#C9D0D4" stop-opacity=".19"/>
-    <stop offset="1" stop-color="#08090A" stop-opacity="0"/>
-  </radialGradient>
-  <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
-    <stop stop-color="#fff" stop-opacity="0"/>
-    <stop offset=".5" stop-color="#fff" stop-opacity=".8"/>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+    <stop offset=".48" stop-color="#fff" stop-opacity="0"/>
+    <stop offset=".53" stop-color="#fff" stop-opacity=".95"/>
+    <stop offset=".58" stop-color="#fff" stop-opacity="0"/>
     <stop offset="1" stop-color="#fff" stop-opacity="0"/>
   </linearGradient>
-  <filter id="soft" x="-30%" y="-50%" width="160%" height="200%">
-    <feGaussianBlur stdDeviation="22"/>
+  <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(490 0 0 220 600 260)" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#AEB7BD" stop-opacity=".17"/>
+    <stop offset="1" stop-color="#08090A" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="blur" x="-30%" y="-100%" width="160%" height="300%">
+    <feGaussianBlur stdDeviation="26"/>
   </filter>
-  <filter id="metal" x="-20%" y="-30%" width="140%" height="160%">
-    <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
-    <feSpecularLighting in="blur" surfaceScale="7" specularConstant=".8" specularExponent="24" lighting-color="#fff" result="spec">
-      <fePointLight x="-150" y="-100" z="260"/>
-    </feSpecularLighting>
-    <feComposite in="spec" in2="SourceAlpha" operator="in" result="spec2"/>
-    <feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="spec2"/></feMerge>
+  <filter id="shadow" x="-20%" y="-80%" width="140%" height="260%">
+    <feGaussianBlur stdDeviation="8"/>
   </filter>
-  <clipPath id="frame"><rect width="1200" height="520" rx="3"/></clipPath>
+  <clipPath id="word">
+    <text x="600" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="160" font-weight="800" letter-spacing="8">REVOLTZ</text>
+  </clipPath>
 </defs>
-<g clip-path="url(#frame)">
-  <rect width="1200" height="520" fill="#08090A"/>
-  <rect width="1200" height="520" fill="url(#spot)"/>
-  <path d="M0 390H1200" stroke="#fff" stroke-opacity=".055"/>
-  <path d="M0 130H1200" stroke="#fff" stroke-opacity=".035"/>
-  <g opacity=".32">
-    <path d="M90 0V520M1110 0V520" stroke="#AEB4B8" stroke-opacity=".12"/>
-    <path d="M70 70H1130M70 450H1130" stroke="#AEB4B8" stroke-opacity=".1"/>
-  </g>
-  <ellipse cx="610" cy="280" rx="365" ry="105" fill="#AAB2B8" opacity=".14" filter="url(#soft)"/>
-  <g filter="url(#metal)">
-    <path d="M192 286C273 137 424 77 558 129C664 170 661 306 768 331C861 353 942 271 1005 191C970 324 854 423 723 399C585 374 591 235 486 206C384 177 294 239 192 356C164 383 151 359 192 286Z" fill="url(#chrome)"/>
-    <path d="M193 286C274 138 425 78 558 130C665 171 661 307 768 332C862 354 943 271 1005 191" stroke="#fff" stroke-opacity=".85" stroke-width="2.2"/>
-    <path d="M192 356C294 239 384 177 486 206C591 235 585 375 723 399C854 423 970 324 1005 191" stroke="#0A0B0C" stroke-opacity=".8" stroke-width="3"/>
-    <path d="M220 300C322 179 419 134 526 171C635 209 624 334 746 361C843 383 925 313 981 236" stroke="url(#edge)" stroke-width="12" stroke-linecap="round" opacity=".9"/>
-    <path d="M260 332C355 241 420 209 488 231C574 258 567 357 690 380" stroke="#F8FAFB" stroke-opacity=".7" stroke-width="1.4"/>
-    <path d="M505 130C601 151 616 215 632 270C650 335 699 368 770 370" stroke="#15191C" stroke-opacity=".8" stroke-width="18" stroke-linecap="round"/>
-  </g>
-  <path d="M170 410C370 330 480 330 650 395C810 456 941 414 1050 327" stroke="#D8DEE2" stroke-opacity=".14" stroke-width="1"/>
-  <g opacity=".65">
-    <circle cx="177" cy="286" r="2" fill="#E8ECEE"/><circle cx="1005" cy="191" r="2" fill="#E8ECEE"/>
-    <circle cx="723" cy="399" r="2" fill="#E8ECEE"/>
-  </g>
-  <g opacity=".55">
-    <rect x="-250" y="0" width="150" height="520" fill="url(#beam)" transform="skewX(-18)">
-      <animate attributeName="x" values="-400;1450" dur="8s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-  <path d="M0 519.5H1200" stroke="#fff" stroke-opacity=".12"/>
-  <text x="72" y="54" fill="#858C91" font-family="Arial,Helvetica,sans-serif" font-size="10" letter-spacing="3">INDEPENDENT / DIGITAL / EXPERIMENTAL</text>
-  <text x="1128" y="54" text-anchor="end" fill="#858C91" font-family="Arial,Helvetica,sans-serif" font-size="10" letter-spacing="3">STUDIO 001</text>
-  <text x="72" y="482" fill="#666D72" font-family="Arial,Helvetica,sans-serif" font-size="9" letter-spacing="2.5">FORM IN MOTION</text>
-  <text x="1128" y="482" text-anchor="end" fill="#666D72" font-family="Arial,Helvetica,sans-serif" font-size="9" letter-spacing="2.5">EST. IN THE MAKING</text>
+<rect width="1200" height="520" fill="#08090A"/>
+<rect width="1200" height="520" fill="url(#glow)"/>
+<path d="M70 90H1130M70 430H1130" stroke="#AEB6BB" stroke-opacity=".12"/>
+<path d="M70 90V430M1130 90V430" stroke="#AEB6BB" stroke-opacity=".07"/>
+<text x="600" y="311" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="160" font-weight="800" letter-spacing="8" fill="#C9D0D4" opacity=".36" filter="url(#shadow)">REVOLTZ</text>
+<text x="600" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="160" font-weight="800" letter-spacing="8" fill="url(#chrome)" stroke="#F8FAFB" stroke-opacity=".35" stroke-width="1.1">
+  REVOLTZ
+  <animate attributeName="opacity" values="0;1;1" keyTimes="0;.28;1" dur="2.4s" fill="freeze"/>
+</text>
+<g clip-path="url(#word)" opacity=".8">
+  <rect x="-500" y="100" width="330" height="230" fill="url(#sheen)" transform="skewX(-18)">
+    <animate attributeName="x" values="-500;1450" dur="6.5s" repeatCount="indefinite" begin="1.5s"/>
+  </rect>
 </g>
+<path d="M310 346C450 370 750 370 890 346" stroke="#D9E0E4" stroke-opacity=".18"/>
+<path d="M455 355H745" stroke="#F4F6F7" stroke-opacity=".5"/>
+<circle cx="445" cy="355" r="2" fill="#E8ECEE" opacity=".8"/>
+<circle cx="755" cy="355" r="2" fill="#E8ECEE" opacity=".8"/>
+<text x="72" y="54" fill="#858C91" font-family="Arial,Helvetica,sans-serif" font-size="10" letter-spacing="3">INDEPENDENT / DIGITAL / EXPERIMENTAL</text>
+<text x="1128" y="54" text-anchor="end" fill="#858C91" font-family="Arial,Helvetica,sans-serif" font-size="10" letter-spacing="3">STUDIO 001</text>
+<text x="72" y="482" fill="#666D72" font-family="Arial,Helvetica,sans-serif" font-size="9" letter-spacing="2.5">BUILT IN THE DARK</text>
+<text x="1128" y="482" text-anchor="end" fill="#666D72" font-family="Arial,Helvetica,sans-serif" font-size="9" letter-spacing="2.5">REVEAL / 001</text>
 </svg>
